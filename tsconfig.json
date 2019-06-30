@@ -1,0 +1,17 @@
+/* configurações para o compilador typescript */
+{
+    "compilerOptions": {
+        /* compilador que ts será usado */
+        "target": "es6",
+        /* diretório onde estará o resultado da compilação */
+        "outDir": "app/js",
+        /* não vai gerar o arquivo js se der erro de compilação */
+        "noEmitOnError": true,
+        /* vai passar a exigir que todas as variáveis sejam tipadas */
+        "noImplicitAny": true
+    },
+    "include": [
+        /* diretório e subdiretório onde estão os arquivos ts */
+        "app/ts/**/*"
+    ]
+}
