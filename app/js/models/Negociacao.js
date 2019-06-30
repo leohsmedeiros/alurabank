@@ -1,10 +1,8 @@
 class Negociacao {
-    constructor(data, quantidade, valor) {
-        // _ representa uma convenção que diz que esse tipo de variável
-        // não pode ser alterado fora dos métodos da própria classe
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
+    constructor(_data, _quantidade, _valor) {
+        this._data = _data;
+        this._quantidade = _quantidade;
+        this._valor = _valor;
     }
     get data() {
         return this._data;
